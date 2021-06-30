@@ -15,6 +15,12 @@
 /* header */
 
 header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 500px;
+}
+
+.row-header{
     background-color:#3161e0;
 }
 
@@ -51,7 +57,7 @@ display: inline-block;
     position: relative;
 }
 
-ul{
+.main-nav ul{
 position: absolute;
 top: 50%;
 left: 50%;
