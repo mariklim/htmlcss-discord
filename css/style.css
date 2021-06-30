@@ -109,3 +109,25 @@ display: inline-block;
     background-color: black;
     color: white;
 }
+
+
+/* Main */
+
+main{
+    color:black;
+}
+
+.img-size{
+    vertical-align: middle;
+}
+
+.testo{
+    width: 35%;
+    float: right;
+    padding: 40px;
+}
+
+.testo h2{
+    line-height: 40px;
+    font-size: 30px; 
+}
