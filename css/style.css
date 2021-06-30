@@ -5,3 +5,43 @@
     box-sizing: border-box;
 }
 
+/* common */
+.container-center{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* header */
+
+header{
+    background-color: rgb(255, 127, 170);
+}
+
+.logo{
+    background-color: chartreuse;
+}
+
+.menu{
+    background-color: darkblue;
+}
+
+.login{
+    background-color: darkorange;
+}
+
+.logo, .menu, .login {
+	float: left;
+    padding: 20px;
+}
+
+.logo, .login {
+	width: 20%;  
+}
+.menu {
+	width: calc(60%);
+}
