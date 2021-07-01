@@ -27,6 +27,10 @@ body{
     border: 0;
 }
 
+main .container-center{
+    margin-bottom: 60px;
+}
+
 /* header */
 
 header{
@@ -121,9 +125,15 @@ main{
     vertical-align: middle;
 }
 
-.testo{
+.testo.float-right{
     width: 35%;
     float: right;
+    padding: 40px;
+}
+
+.testo.float-left{
+    width: 35%;
+    float: left;
     padding: 40px;
 }
 
