@@ -6,6 +6,12 @@
 }
 
 /* common */
+
+.clearfix::after{
+content: "";
+  display: table;
+  clear: both;
+}
 .container-center{
     max-width: 1200px;
     margin: auto;
@@ -40,8 +46,6 @@ header{
 
 .row-header{
     background-color:#3161e0;
-    height: 90px;
-    
 }
 
 .col-left, .col-center, .col-right{
@@ -59,13 +63,14 @@ header{
     width: 60%;
     text-align: center;
 }
-
-
 .main-nav li, 
 .main-nav li a {
 display: inline-block;
 }
 
+.main-nav li{
+    text-align: center;
+}
 
 .main-nav li a {
 	text-decoration: none;
