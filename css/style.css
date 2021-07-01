@@ -74,7 +74,7 @@ display: inline-block;
 
 /* hero */
 
-.container-center-2{
+.container-center.banner{
     max-width: 1200px;
     height: 600px;
     margin: auto;
